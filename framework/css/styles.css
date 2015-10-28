@@ -1,0 +1,93 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #707070;
+    font-weight: 300;
+}
+
+.text-muted {
+    color: #BCBBBB;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.title-super {
+    font-size: 4.0em;
+    margin-bottom: 4px;
+}
+
+.title-logo {
+    margin-top: 20px;
+    overflow: auto;
+}
+
+.title-small {
+    margin-top: 4px;
+}
+
+hr {
+    border: none;
+    height: 4px;
+    /* Set the hr color */
+    color: #BCBBBB;
+ /* old IE */
+    background-color: #BCBBBB;
+ /* Modern Browsers */
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+/* media queries */
+@media (max-width: 991px) {
+    .title-logo {
+        max-width: 100px;
+        height: auto;
+    }
+
+    .title-super {
+        font-size: 2.5em;
+        margin-bottom: 4px;
+    }
+
+    .title-small {
+        font-size: 1.5em;
+    }
+
+    .text-feature {
+        font-size: 2.0em;
+    }
+
+    .text-projname {
+        font-size: 1.5em;
+    }
+}
+
+/* Small devices */
+@media (max-width: 768px) {
+  
+    .title-logo {
+        max-width: 90px;
+        height: auto;
+    }
+
+    .title-super {
+        font-size: 2.0em;
+        margin-bottom: 4px;
+    }
+
+    .title-small {
+        font-size: 1.0em;
+    }
+
+    .text-feature {
+        font-size: 1.5em;
+    }
+
+    .text-projname {
+        font-size: 1.0em;
+    }
+}
+
+
+

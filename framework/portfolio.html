@@ -1,61 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html Lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <link href='https://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
-    <title>Mock Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>My Portfolio</title>
 </head>
 
 <body>
-    <div class="grid">
-        <div class="row header">
-            <div class="col-2">
-                <img class="my-logo" src="images/test.png" alt="My Logo">
-            </div>
-            <div class="col-4"></div>
-            <div class="col-6">
-                <h1 class="myname">SOPHIA G</h1>
-                <h3 class="mytitle">SOFTWARE ENGINEER</h3>
-            </div>
-        </div>
-        <hr>
+    <div class="container">
         <div class="row">
-            <div class="col-12 mainimg">
-                <img src="images/water_ripple.jpg">
+            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                <img class="title-logo" src="images/test.png" alt="My Logo">
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6 text-right">
+                <h1 class="title-super text-thin">SOPHIA G</h1>
+                <h3 class="title-small"><small>SOFTWARE ENGINEER</small></h3>
             </div>
         </div>
         <div class="row">
-            <div class="col-12">
-                <h2 class="mywork">Featured Work</h2>
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <hr>
             </div>
         </div>
         <div class="row">
-            <div class="col-4">
-                <img src="images/imgrt.jpg">
-                <div class="proj">
-                    <h3>PROJECT 1</h3>
-                    <p><a href="javascript:;">https://portfolio/project1</a>
-                    </p>
-                </div>
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <img class="img-responsive center-block" src="images/water_ripple.jpg" alt="water ripple image">
             </div>
-            <div class="col-4">
-                <img src="images/imgmid.jpg">
-                <div class="proj">
-                    <h3>PROJECT 2</h3>
-                    <p><a href="javascript:;">https://portfolio/project2</a>
-                    </p>
-                </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <h2 class="text-muted text-feature">Featured Work</h2>
             </div>
-            <div class="col-4">
-                <img src="images/imgleft.jpg">
-                <div class="proj">
-                    <h3>PROJECT 3</h3>
-                    <p><a href="javascript:;">https://portfolio/project3</a>
-                    </p>
-                </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4 col-sm-4">
+                <img class="img-responsive center-block" src="images/imgrt.jpg" alt="owl with laptop image">
+                <h3 class="text-projname">PROJECT 1</h3>
+                <p><a href="javascript:;">https://portfolio/project1</a>
+                </p>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <img class="img-responsive center-block" src="images/imgmid.jpg" alt="three monito image">
+                <h3 class="text-projname">PROJECT 2</h3>
+                <p><a href="javascript:;">https://portfolio/project2</a>
+                </p>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <img class="img-responsive center-block" src="images/imgleft.jpg" alt="power icon image">
+                <h3 class="text-projname">PROJECT 3</h3>
+                <p><a href="javascript:;">https://portfolio/project3</a>
+                </p>
             </div>
         </div>
     </div>
