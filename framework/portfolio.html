@@ -9,6 +9,8 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <title>My Portfolio</title>
 </head>
 
@@ -40,25 +42,81 @@
         </div>
         <div class="row text-center">
             <div class="col-md-4 col-sm-4">
-                <img class="img-responsive center-block" src="images/imgrt.jpg" alt="owl with laptop image">
+                <img class="img-responsive center-block" src="images/imgrt.jpg" alt="owl with laptop image" data-toggle="modal" data-target="#project1">
                 <h3 class="text-projname">PROJECT 1</h3>
                 <p><a href="javascript:;">https://portfolio/project1</a>
                 </p>
             </div>
             <div class="col-md-4 col-sm-4">
-                <img class="img-responsive center-block" src="images/imgmid.jpg" alt="three monito image">
+                <img class="img-responsive center-block" src="images/imgmid.jpg" alt="three monito image" data-toggle="modal" data-target="#project2">
                 <h3 class="text-projname">PROJECT 2</h3>
                 <p><a href="javascript:;">https://portfolio/project2</a>
                 </p>
             </div>
             <div class="col-md-4 col-sm-4">
-                <img class="img-responsive center-block" src="images/imgleft.jpg" alt="power icon image">
+                <img class="img-responsive center-block" src="images/imgleft.jpg" alt="power icon image" data-toggle="modal" data-target="#project3">
                 <h3 class="text-projname">PROJECT 3</h3>
                 <p><a href="javascript:;">https://portfolio/project3</a>
                 </p>
             </div>
         </div>
     </div>
+
+    <!-- Modal -->
+    <!--Project 1 Modal  -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Project 1 Page</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive modal-img" src="images/imgrt.jpg">
+            This was my first project in this class. I learned a lot about HTML and CSS.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Project 2 Modal  -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Project 2 Page</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive modal-img" src="images/imgmid.jpg">
+            This was my Second project in this class. I learned a lot about Bootstrap and responsive web page.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Project 3 Modal  -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Project 3 Page</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive modal-img" src="images/imgleft.jpg">
+            This was my Third project in this class. I learned a lot about Javascript and JQuery web page.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
 </body>
 
 </html>

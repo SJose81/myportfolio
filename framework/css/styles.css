@@ -26,6 +26,11 @@ body {
     margin-top: 4px;
 }
 
+.modal-img{
+    width: 555px;
+    height: auto;
+}
+
 hr {
     border: none;
     height: 4px;
